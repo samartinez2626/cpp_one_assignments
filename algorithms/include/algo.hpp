@@ -21,7 +21,7 @@ int linear_search(Array * a, const int target)
     {
         if(a->data[i] == target)
         {
-            return i;
+            return int(i);
         }
     }
     return -1;
