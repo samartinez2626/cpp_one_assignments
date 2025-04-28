@@ -6,7 +6,7 @@
 
 TEST(SOLVER_TEST, BasicAssertions) {
     Board b = Board(1000, 1000, 5);
-
+    std::cout << "what" << std::endl;
     ExampleSolver es;
     es.solve(b);
 
